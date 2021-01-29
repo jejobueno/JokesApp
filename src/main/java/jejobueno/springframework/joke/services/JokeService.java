@@ -1,4 +1,4 @@
-package jejobueno.springframework.jokeapp.services;
+package jejobueno.springframework.joke.services;
 
 
 public interface JokeService {

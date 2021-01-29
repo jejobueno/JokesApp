@@ -1,4 +1,4 @@
-package jejobueno.springframework.jokeapp.services;
+package jejobueno.springframework.joke.services;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.stereotype.Service;
@@ -13,7 +13,7 @@ public class JokeServiceImpl implements JokeService {
     }
 
     @Override
-    public String getJoke(){
+    public String getJoke() {
         return chuckNorrisQuotes.getRandomQuote();
     }
 }
